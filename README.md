@@ -57,7 +57,7 @@ src/
 │   ├── useCalendar.ts               # Calendar state management
 │   └── useEventManager.ts           # Event CRUD operations
 ├── utils/
-│   ├── date.utils.ts                # Date manipulation
+│   ├── date.ts                      # Date manipulation
 │   └── event.utils.ts               # Event helpers
 ├── types/
 │   └── calendar.types.ts            # TypeScript definitions
