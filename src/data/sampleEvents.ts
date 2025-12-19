@@ -1,0 +1,86 @@
+const sampleEvents = [
+  {
+    id: 'evt-1',
+    title: 'Team Standup',
+    description: 'Daily sync with the team',
+    startDate: new Date(2024, 11, 18, 9, 0),
+    endDate: new Date(2024, 11, 18, 9, 30),
+    color: '#3b82f6',
+    category: 'Meeting',
+  },
+  {
+    id: 'evt-2',
+    title: 'Design Review',
+    description: 'Review new component designs',
+    startDate: new Date(2024, 11, 18, 14, 0),
+    endDate: new Date(2024, 11, 18, 15, 30),
+    color: '#10b981',
+    category: 'Design',
+  },
+  {
+    id: 'evt-3',
+    title: 'Client Presentation',
+    startDate: new Date(2024, 11, 19, 10, 0),
+    endDate: new Date(2024, 11, 19, 11, 30),
+    color: '#f59e0b',
+    category: 'Meeting',
+  },
+  {
+    id: 'evt-4',
+    title: 'Development Sprint',
+    description: 'Sprint planning and task assignment',
+    startDate: new Date(2024, 11, 20, 9, 0),
+    endDate: new Date(2024, 11, 20, 17, 0),
+    color: '#8b5cf6',
+    category: 'Work',
+  },
+  {
+    id: 'evt-5',
+    title: 'Lunch Break',
+    startDate: new Date(2024, 11, 18, 12, 0),
+    endDate: new Date(2024, 11, 18, 13, 0),
+    color: '#06b6d4',
+    category: 'Personal',
+  },
+  {
+    id: 'evt-6',
+    title: 'Code Review',
+    description: 'Review PRs from team members',
+    startDate: new Date(2024, 11, 21, 15, 0),
+    endDate: new Date(2024, 11, 21, 16, 0),
+    color: '#3b82f6',
+    category: 'Development',
+  },
+  {
+    id: 'evt-7',
+    title: 'Project Planning',
+    startDate: new Date(2024, 11, 22, 10, 0),
+    endDate: new Date(2024, 11, 22, 12, 0),
+    color: '#ef4444',
+    category: 'Work',
+  },
+  {
+    id: 'evt-8',
+    title: 'Workshop',
+    description: 'React best practices workshop',
+    startDate: new Date(2024, 11, 23, 14, 0),
+    endDate: new Date(2024, 11, 23, 17, 0),
+    color: '#ec4899',
+    category: 'Work',
+  },
+]
+
+const manyEvents = [
+  ...sampleEvents,
+  ...Array.from({ length: 20 }, (_, i) => ({
+    id: `evt-extra-${i}`,
+    title: `Event ${i + 9}`,
+    description: `Description for event ${i + 9}`,
+    startDate: new Date(2024, 11, 15 + (i % 10), 10 + (i % 8), 0),
+    endDate: new Date(2024, 11, 15 + (i % 10), 11 + (i % 8), 0),
+    color: ['#3b82f6', '#10b981', '#f59e0b', '#8b5cf6', '#ef4444'][i % 5],
+    category: ['Meeting', 'Work', 'Personal', 'Design', 'Development'][i % 5],
+  })),
+]
+
+export { sampleEvents, manyEvents }
