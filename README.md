@@ -210,9 +210,9 @@ function App() {
 
 ## 📞 Contact
 
-[Your Name]  
-[Your Email]  
-[GitHub Profile]
+[Chandan Mishra]  
+[chandan.mishra23456@gmail.com]  
+
 
 ---
 
