@@ -2,9 +2,10 @@
 
 A fully functional, accessible Calendar View component built from scratch with React, TypeScript, and Tailwind CSS. This component demonstrates production-quality code, enterprise-grade UI/UX patterns, and accessibility-first approach.
 
-## 🔗 Live Storybook
+## 🔗 Live Links
 
-[View Deployed Storybook](#) *(Deploy and add link before submission)*
+- Live Demo: [Open App](#) *(Replace with your Vercel URL)*
+- Storybook: [Open Storybook](#) *(Replace after deployment)*
 
 ## 📦 Installation
 
@@ -27,6 +28,11 @@ Open http://localhost:6006 to explore all component stories and interactions.
 ```bash
 npm run dev
 ```
+
+## ❗ Requirements
+
+- Node.js 18+ (recommended for Vite 5)
+- npm 9+
 
 ## 🏗️ Architecture
 
