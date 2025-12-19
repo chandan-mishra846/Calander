@@ -4,8 +4,8 @@ A fully functional, accessible Calendar View component built from scratch with R
 
 ## 🔗 Live Links
 
-- Live Demo: [Open App](#) *(Replace with your Vercel URL)*
-- Storybook: [Open Storybook](#) *(Replace after deployment)*
+- Live Demo: [Open App](https://calander-xi.vercel.app/)
+- Storybook: [Open Storybook](https://calendar-storybook-mu.vercel.app/)
 
 ## 📦 Installation
 

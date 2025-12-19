@@ -3,8 +3,8 @@
 Provide the links below and add any notes requested.
 
 ## Links
-- Live Demo (Vercel): <https://your-vercel-url.vercel.app>
-- Live Storybook: <https://your-storybook-url>
+- Live Demo (Vercel): <https://calander-xi.vercel.app/>
+- Live Storybook: <https://calendar-storybook-mu.vercel.app/>
 - Repository (optional): <https://github.com/your-repo>
 
 ## How to Run Locally
